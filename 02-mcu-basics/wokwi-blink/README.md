@@ -8,6 +8,12 @@ P0 的第二个节点。目标不是写出多复杂的代码，而是第一次�
 - 同步向串口打印计数，格式 `tick N  LED=ON` / `tick N  LED=OFF`。
 - 全程在 Wokwi 在线仿真里完成，不需要任何硬件。
 
+## 运行结果
+
+![Wokwi 仿真截图：串口 tick 计数与 D9 外接 LED](screenshot.png)
+
+串口连续跑到 tick 91，`LED=ON` / `LED=OFF` 与板上红灯同步交替。
+
 ## 电路
 
 | 起点 | 经过 | 终点 |
