@@ -1,0 +1,30 @@
+# Keil MDK 编译产物
+Objects/
+Listings/
+*.uvguix.*
+*.uvoptx
+*.uvguix
+*.bak
+*.dep
+*.iex
+*.sct.bak
+
+# 调试与仿真
+*.scvd
+JLinkLog.txt
+*.trace
+
+# 系统与编辑器
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# 临时文件
+*.o
+*.d
+*.crf
+*.axf
+*.lst
+*.map
