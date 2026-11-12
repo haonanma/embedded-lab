@@ -21,12 +21,23 @@
 
 ## 进度
 
-- [x] 环境搭建（Keil / Git / Wokwi）
-- [ ] P1 C 语言内功
+### P0 工具链与环境（2026-11-03 完成）
+
+- [x] 01 Keil MDK 编译通过第一个 STM32F103C8 工程，`0 Error / 0 Warning`，产出 `.hex`
+- [x] 02 Wokwi 在线仿真：点灯 + 串口打印，截图已归档
+- [x] 03 Git 建仓、首次提交、推送到 GitHub
+- [x] 04 Python + pyserial 打通 PC 端串口收发（当前验证的是 `loop://` 自环）
+
+### 后续阶段
+
+- [ ] P1 C 语言内功 ← **当前位置：第 05 项 指针基础**
 - [ ] P2 单片机基础
 - [ ] P3 FreeRTOS
 - [ ] P4 协议栈与 Bootloader
 - [ ] P5 主线项目
+
+> P0 收口笔记见 [`docs/open-questions.md`](docs/open-questions.md)。
+> 已知的待补项：`volatile` 空循环优化问题留到 P1-09 亲手复现；真实 COM 口对打留到 P4 之前补齐。
 
 ## 说明
 
